@@ -10,7 +10,7 @@ Using CI environment variable is [here](https://github.com/danger/danger/blob/ma
 Running on CI below script.
 
 ```bash
-$ printenv > env.list
+$ printenv | grep -Ev "PATH|path|GEM_HOME" > env.list
 $ docker run -it --rm --env-file env.list -v "$(pwd):/usr/src/app" pyar6329/danger:latest
 ```
 
