@@ -11,6 +11,6 @@ Running on CI below script.
 
 ```bash
 $ printenv > env.list
-$ docker run -it --rm -env-file $(pwd)/env.list -v "$(pwd):/usr/src/app" pyar6329/danger:latest
+$ docker run -it --rm --env-file env.list -v "$(pwd):/usr/src/app" pyar6329/danger:latest
 ```
 
