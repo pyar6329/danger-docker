@@ -4,8 +4,8 @@ docker hub is [https://hub.docker.com/r/pyar6329/danger](https://hub.docker.com/
 
 ## Supported tags and respective `Dockerfile` links
 
-- `5.4.1-ruby`, `5.4.1`, `latest` [(ruby/Dockerfile)](https://github.com/pyar6329/danger-docker/blob/master/ruby/Dockerfile)
-- `5.4.1-node` [(javascript/Dockerfile)](https://github.com/pyar6329/danger-docker/blob/master/javascript/Dockerfile)
+- `5.4.1-ruby`, `5.4.1`, '5.4-ruby', '5.4', `latest` [(ruby/Dockerfile)](https://github.com/pyar6329/danger-docker/blob/master/ruby/Dockerfile)
+- `5.4.1-node`, '5.4-node' [(javascript/Dockerfile)](https://github.com/pyar6329/danger-docker/blob/master/javascript/Dockerfile)
 
 ## Using
 
